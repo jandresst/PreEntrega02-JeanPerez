@@ -13,11 +13,12 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://kit.fontawesome.com/04b75c3b75.js" crossorigin="anonymous"></script>
-    
-    <title>Pre Entrega 02</title>
+
+    <title>SmartSYS - Portafolio</title>
 </head>
 
 <header>
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
@@ -35,7 +36,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./pages/contact.html">Contactanos</a>
                     </li>
-                   
+
                     <li class="nav-item">
                         <a class="nav-link" href="./pages/galeria.html">Galería</a>
                     </li>
@@ -60,6 +61,7 @@
 </header>
 
 <body>
+    
 
     <!-- Slider  -->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -84,41 +86,46 @@
     </div>
     <!-- Fin Slider  -->
 
+    <div class="container -mt5 d-flex flex-column justify-content-center align-items-center text-center">
+        <h3>Clima actual</h3>
+        <p id="clima"></p>
+    </div>
+
     <!-- 1ra Seccion -->
     <div class="container px-4 py-5" id="hanging-icons">
-       
+
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="col d-flex align-items-start">
-            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-              <i class="fa-solid fa-code" style="font-size: 45px;"></i>
+            <div class="col d-flex align-items-start">
+                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                    <i class="fa-solid fa-code" style="font-size: 45px;"></i>
+                </div>
+                <div>
+                    <h2>Desarrollo Web</h2>
+                    <p>Nos encargamos de incorporar las mejores herramientas en tu proyecto.</p>
+
+                </div>
             </div>
-            <div>
-              <h2>Desarrollo Web</h2>
-              <p>Nos encargamos de incorporar las mejores herramientas en tu proyecto.</p>
-              
+            <div class="col d-flex align-items-start">
+                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                    <i class="fa-brands fa-sketch" style="font-size: 45px;"></i>
+                </div>
+                <div>
+                    <h2>Diseño</h2>
+                    <p>Nuestros diseñadores hacen realidad tu visión.</p>
+                </div>
             </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                <i class="fa-brands fa-sketch" style="font-size: 45px;"></i>
+            <div class="col d-flex align-items-start">
+                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                    <i class="fa-solid fa-calendar-week" style="font-size: 45px;"></i>
+                </div>
+                <div>
+                    <h2>A Tiempo</h2>
+                    <p>Todos les servicios brindados son entregas en plazos correspondientes.</p>
+                </div>
             </div>
-            <div>
-              <h2>Diseño</h2>
-              <p>Nuestros diseñadores hacen realidad tu visión.</p>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                <i class="fa-solid fa-calendar-week" style="font-size: 45px;"></i>
-            </div>
-            <div>
-              <h2>A Tiempo</h2>
-              <p>Todos les servicios brindados son entregas en plazos correspondientes.</p>
-            </div>
-          </div>
         </div>
-      </div>
-                <!-- Fin 1ra seccion -->
+    </div>
+    <!-- Fin 1ra seccion -->
 
     <div class="container mt-5">
         <div class="row">
@@ -252,8 +259,6 @@
             </div>
         </div>
 
-        <div id="wsp"></div>
-
 
         <footer class="bg-light text-center text-lg-start">
 
@@ -263,7 +268,7 @@
             </div>
 
         </footer>
-
+        <script src="./js/script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
